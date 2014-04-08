@@ -4,10 +4,13 @@ LANPP
 LANPP - Server Configuration Scripts (Linux Apache+Nginx Percona PHP)
 
 This configuration based on Debian 7 (Wheezy) Distro.
+
 Install actions are semi-automated for better control.
+
 All scripts run from root user (or via su/sudo) on CLEAN system.
 
 Install instructions:
+------
 
 0. Install Debian 7 (I recommend using netinst image) and sudo, aptitude packages
 
@@ -21,7 +24,6 @@ user="org.example"  # linux user and group to create
 domain="example.org"  # operating domain (both naked and www.* will be created)
 database="orgexample" # database name (mysql database naming conventions - best if database name fit in 16 symbols)
 ```
-
 4. Run copy of "create-user-example.com.sh"
 It create all needed folders, configs and database objects.
 Database credentials are stored in /home/${user}/mysql-credentials.txt file.
