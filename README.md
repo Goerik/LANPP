@@ -7,7 +7,7 @@ This configuration based on Debian 7 (Wheezy) Distro.
 
 Install actions are semi-automated for better control.
 
-All scripts run from root user (or via su/sudo) on CLEAN system.
+All scripts MUST be run from root user (or via su/sudo) on CLEAN system.
 
 Install instructions:
 ------
